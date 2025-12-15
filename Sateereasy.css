@@ -1,1 +1,51 @@
-Hello 
+
+.bg-white {
+  background-color: #F4F3E1 !important;
+}
+
+. text-white {
+  color: #F4F3E1 !important;
+}
+
+/* تغيير الأسود إلى #4A1C2A */
+.text-black {
+  color: #4A1C2A !important;
+}
+
+. bg-black {
+  background-color: #4A1C2A !important;
+}
+
+/* في حالة الألوان المحددة مباشرة */
+[style*="background-color: white"],
+[style*="background-color: #ffffff"],
+[style*="background-color: #fff"] {
+  background-color: #F4F3E1 ! important;
+}
+
+[style*="color: white"],
+[style*="color: #ffffff"],
+[style*="color:  #fff"] {
+  color: #F4F3E1 !important;
+}
+
+[style*="background-color: black"],
+[style*="background-color: #000000"],
+[style*="background-color: #000"] {
+  background-color:  #4A1C2A ! important;
+}
+
+[style*="color: black"],
+[style*="color: #000000"],
+[style*="color: #000"] {
+  color: #4A1C2A !important;
+}
+
+/* Border colors */
+. border-white {
+  border-color: #F4F3E1 !important;
+}
+
+.border-black {
+  border-color: #4A1C2A !important;
+} 
