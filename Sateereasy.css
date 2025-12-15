@@ -46,3 +46,34 @@
 .border-black {
   border-color: #4A1C2A !important;
 } 
+
+
+/* كروت المنتجات */
+.product-card,
+.product,
+[class*="product"] {
+  border-radius: 13px !important;
+}
+
+/* كروت الكاتيجوري */
+.category-card,
+.category,
+[class*="category"] {
+  border-radius: 13px !important;
+}
+
+/* الصور */
+img {
+  border-radius: 13px !important;
+}
+
+/* جميع العناصر اللي فيها صور */
+picture {
+  border-radius: 13px !important;
+}
+
+/* كروت عامة */
+.card
+[class*="card"] {
+  border-radius: 13px !important;
+}
