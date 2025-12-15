@@ -1,79 +1,8 @@
-
-.bg-white {
-  background-color: #F4F3E1 !important;
+.category_products_grid_card {
+    border-radius: 13px !important;
+    overflow: hidden !important; 
+    margin: 6px !important; 
 }
-
-. text-white {
-  color: #F4F3E1 !important;
-}
-
-.text-black {
-  color: #4A1C2A !important;
-}
-
-. bg-black {
-  background-color: #4A1C2A !important;
-}
-[style*="background-color: white"],
-[style*="background-color: #ffffff"],
-[style*="background-color: #fff"] {
-  background-color: #F4F3E1 ! important;
-}
-
-[style*="color: white"],
-[style*="color: #ffffff"],
-[style*="color:  #fff"] {
-  color: #F4F3E1 !important;
-}
-
-[style*="background-color: black"],
-[style*="background-color: #000000"],
-[style*="background-color: #000"] {
-  background-color:  #4A1C2A ! important;
-}
-
-[style*="color: black"],
-[style*="color: #000000"],
-[style*="color: #000"] {
-  color: #4A1C2A !important;
-}
-
-/* Border colors */
-. border-white {
-  border-color: #F4F3E1 !important;
-}
-
-.border-black {
-  border-color: #4A1C2A !important;
-} 
-
-
-/* كروت المنتجات */
-.product-card,
-.product,
-[class*="product"] {
-  border-radius: 13px !important;
-}
-
-/* كروت الكاتيجوري */
-.category-card,
-.category,
-[class*="category"] {
-  border-radius: 13px !important;
-}
-
-/* الصور */
-img {
-  border-radius: 13px !important;
-}
-
-/* جميع العناصر اللي فيها صور */
-picture {
-  border-radius: 13px !important;
-}
-
-/* كروت عامة */
-.card
-[class*="card"] {
-  border-radius: 13px !important;
+.category_products_grid_card img {
+    border-radius: 13px 13px 13px 13px !important; 
 }
