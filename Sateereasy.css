@@ -14,8 +14,6 @@
 . bg-black {
   background-color: #4A1C2A !important;
 }
-
-/* في حالة الألوان المحددة مباشرة */
 [style*="background-color: white"],
 [style*="background-color: #ffffff"],
 [style*="background-color: #fff"] {
